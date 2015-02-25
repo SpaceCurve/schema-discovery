@@ -1,5 +1,5 @@
-# schema-discovery.py
 This tool reads JSON data to create a data definition file for SpaceCurve System.
 
-**Prerequisite**: Python 2.7
-
+ - **Usage:** https://github.com/SpaceCurve/schema-discovery
+ - **Prerequisite**: Python 2.7
+ - **Note:** This program uses recursion.
