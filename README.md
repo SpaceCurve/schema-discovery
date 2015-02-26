@@ -21,5 +21,10 @@ Parameters
 | <pre>-a, --attribs_to_lower</pre>  |  | Flag. Convert all attributes to lower-case (implies data conversion). |
 | <pre>-v, --verbose</pre> | | Flag. Show verybose log of tool activity. |
 
+Usage
+-----
+
+Use this tool to analyze existing JSON and GeoJSON data. This tool can create a file in data definition language (DDL) that defines a database schema. You can use the `scctl` tool to import the DDL file into SpaceCurve System. For information about importing a DDL file, see *Creating Databases and Tables* in the SpaceCurve documentation.
+
 Examples
 --------
