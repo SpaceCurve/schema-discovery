@@ -31,7 +31,11 @@ This tool infers data types and value distribution statistics about fields in
 JSON Format
 -----------
 
-SpaceCurve System uses a data format similar to GeoJSON.
+SpaceCurve System uses a data format similar to GeoJSON. You can see the GeoJSON specification at http://geojson.org/. SpaceCurve uses GeoJSON that does not include a FeatureCollection array. Instead, GeoJSON objects appear sequentially, with no FeatureCollection wrapper, and without commas between records. 
+
+This call uses [the jq tool](http://stedolan.github.io/jq/) to convert standard GeoJSON into a format readable by `schema-discovery.py` and SpaceCurve System:
+
+`jq -c '.features[]' standard.json > spacecurve.json`
 
 Examples
 --------
