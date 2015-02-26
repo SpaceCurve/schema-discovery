@@ -26,5 +26,12 @@ Usage
 
 Use this tool to analyze existing JSON and GeoJSON data. This tool can create a file in data definition language (DDL) that defines a database schema. You can use the `scctl` tool to import the DDL file into SpaceCurve System. For information about importing a DDL file, see *Creating Databases and Tables* in the SpaceCurve documentation.
 
+This tool infers data types and value distribution statistics about fields in 
+
+JSON Format
+-----------
+
+SpaceCurve System uses a data format similar to GeoJSON.
+
 Examples
 --------
