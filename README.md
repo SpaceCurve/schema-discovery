@@ -19,7 +19,7 @@ Parameters
 | <pre>-s, --sample_freq</pre> | *sampleFrequency* | Only sample every *n*th record. |
 | <pre>-l, -limit</pre>        | *sampleLimit* | Only sample the first *n* records. |
 | <pre>-a, --attribs_to_lower</pre>  |  | Flag. Convert all attributes to lower-case (implies data conversion). |
-| <pre>-v, --verbose</pre> | | Flag. Show verybose log of tool activity. |
+| <pre>-v, --verbose</pre> | | Flag. Show verbose log of tool activity. |
 
 Usage
 -----
