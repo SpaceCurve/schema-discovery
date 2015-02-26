@@ -28,7 +28,7 @@ Use this tool to analyze existing JSON and GeoJSON data. This tool can create a 
 
 This tool infers data types and value distribution statistics about fields in the source data. This information appears in a comment for each data type in the DDL output.
 
-Creating a DDL with correct datatypes is just one step in importing data to SpaceCurve System. Your database also needs partitioning and indexing that reflects the kinds of queries you will make. Find *System Data Management* in the SpaceCurve documentation for guidance about optimizing queries.
+Creating a DDL file with correct datatypes is just one step in importing data to SpaceCurve System. Your database also needs partitioning and indexing that reflects the kinds of queries you will make. Find *System Data Management* in the SpaceCurve documentation for guidance about optimizing queries.
 
 JSON Format
 -----------
