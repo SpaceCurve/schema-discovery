@@ -1,8 +1,7 @@
 Schema Discovery Tool for SpaceCurve System
 ===========================================
 
-The Schema Discovery Tool for the SpaceCurve System reads JSON data
-to create a data definition file for SpaceCurve System.
+The Schema Discovery Tool reads JSON data to create a data definition file for SpaceCurve System.
 
  - **Prerequisite**: Python 2.7
  - **Note:** This program uses recursion.
