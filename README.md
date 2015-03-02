@@ -40,5 +40,3 @@ This call uses [the jq tool](http://stedolan.github.io/jq/) to convert standard 
 
 See the `radar.json` data file included in the SpaceCurve documentation for an example of data in Spacecurve GeoJSON format.
 
-Examples
---------
