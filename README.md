@@ -40,3 +40,10 @@ This call uses [the jq tool](http://stedolan.github.io/jq/) to convert standard 
 
 See the `radar.json` data file included in the SpaceCurve documentation for an example of data in Spacecurve GeoJSON format.
 
+Example
+-------
+
+These lines of `bash` script scan a GeoJSON file, create a DDL file, and create a database instance on the **master** node.
+
+<pre>python schema-discovery.py -f spacecurve.json -t places -o places_schema.sql
+scctl shell --ddl -n places -f places_schema.sql<pre>
