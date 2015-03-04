@@ -45,5 +45,5 @@ Example
 
 These lines of `bash` script scan a GeoJSON file, create a DDL file, and create a database instance on the **master** node.
 
-<pre>python schema-discovery.py -f spacecurve.json -t places -o places_schema.sql
-scctl shell --ddl -n places -f places_schema.sql<pre>
+<pre>python schema-discovery.py --input_path spacecurve.json --table_name places --output_path places_schema.sql
+scctl shell --ddl --instance_name=places --file=places_schema.sql<pre>
