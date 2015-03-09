@@ -27,6 +27,10 @@ Use this tool to analyze existing JSON and GeoJSON data. This tool can create a 
 
 This tool infers data types and value distribution statistics about fields in the source data. This information appears in a comment for each data type in the DDL output.
 
+**Choose Data Types**
+
+The DDL file produced by this tool infers data types where it's able. However, you must review this DDL file to confirm it suits your data. This tool inserts the word **Choose** where you can or must choose a precise data type. For example, SpaceCurve System can accept geometry (flat) and geography (globe-based) geospatial data. If this tool cannot determine any data type based on your source data, you will see **<<Choose** in the comment. 
+
 Creating a DDL file with correct datatypes is just one step in importing data to SpaceCurve System. Your database also needs partitioning and indexing that reflects the kinds of queries you will make. Find *System Data Management* in the SpaceCurve documentation for guidance about optimizing queries.
 
 JSON Format
