@@ -29,7 +29,7 @@ This tool infers data types and value distribution statistics about fields in th
 
 **Choose Data Types**
 
-The DDL file produced by this tool infers data types where it's able. However, you must review this DDL file to confirm it suits your data. This tool inserts the word **Choose** where you can or must choose a precise data type. For example, SpaceCurve System can accept geometry (flat) and geography (globe-based) geospatial data. If this tool cannot determine any data type based on your source data, you will see **<<Choose** in the comment. 
+The DDL file produced by this tool infers data types where it's able. However, you must review this DDL file to confirm it suits your data. This tool inserts the word **Choose** where you can or must choose a precise data type. For example, SpaceCurve System can accept geometry (flat) and geography (globe-based) geospatial data. If this tool cannot determine any data type based on your source data, you will see **<<Choose** in the comment. For these fields, you must choose a data type that will adequately handle your source data values.
 
 **Partion and Index**
 
