@@ -44,7 +44,7 @@ This call uses [the jq tool](http://stedolan.github.io/jq/) to convert standard 
 
 `jq -c '.features[]' standard.json > spacecurve.json`
 
-See the `radar.json` data file included in the SpaceCurve documentation for an example of data in Spacecurve GeoJSON format.
+See the `radar.json` data file included in the SpaceCurve documentation for an example of data in ingestible GeoJSON format.
 
 Example
 -------
