@@ -1,4 +1,18 @@
 #!/usr/bin/python
+# -*- coding: utf-8 -*-
+#
+# Converts query results from SpaceCurve System into strict GeoJSON.
+#
+# for Python 2.7
+#
+#
+# For help:
+#
+# python sc-to-geojson.py --help
+#
+# and visit: https://github.com/SpaceCurve/schema-discovery
+#
+# @copyright (C) SpaceCurve, Inc. 2015
 
 import os
 import re
