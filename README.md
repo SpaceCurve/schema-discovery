@@ -38,11 +38,11 @@ Creating a DDL file with correct datatypes is just one step in importing data to
 JSON Format
 -----------
 
-SpaceCurve System uses a data format similar to GeoJSON. You can see the GeoJSON specification at http://geojson.org/. SpaceCurve uses GeoJSON that does not include a FeatureCollection array. Instead, GeoJSON objects appear sequentially, with no FeatureCollection wrapper, and without commas between records. 
+SpaceCurve System uses a data format similar to GeoJSON. You can see the GeoJSON specification at http://geojson.org/. SpaceCurve uses GeoJSON that does not include a FeatureCollection array. Instead, GeoJSON objects appear sequentially, with no FeatureCollection wrapper, and without commas between records. Also, each record must appear on a single line, with a carriage return delimiting between records.
 
 This call uses [the jq tool](http://stedolan.github.io/jq/) to convert standard GeoJSON into a format readable by `schema-discovery.py` and SpaceCurve System:
 
-`jq -c '.features[]' standard.json > spacecurve.json`
+`jq --compact-output -c '.features[]' standard.json > spacecurve.json`
 
 See the `radar.json` data file included in the SpaceCurve documentation for an example of data in ingestible GeoJSON format.
 
